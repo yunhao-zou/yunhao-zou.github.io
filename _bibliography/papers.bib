@@ -107,7 +107,7 @@ including object detection, panoramic segmentation, optical flow estimation, and
   code="https://github.com/yunhao-zou/RawHDR",
   bibtex_show={true},
   abstract="High dynamic range (HDR) images capture much more intensity levels than standard ones. Current methods predominantly generate HDR images from 8-bit low dynamic range (LDR) sRGB images that have been degraded by the camera processing pipeline. However, it becomes a formidable task to retrieve extremely high dynamic range scenes from such limited bit-depth data. Unlike existing methods, the core idea of this work is to incorporate more informative Raw sensor data to generate HDR images, aiming to recover scene information in hard regions (the darkest and brightest areas of an HDR scene). To this end, we propose a model tailor-made for Raw images, harnessing the unique features of Raw data to facilitate the Raw-to-HDR mapping. Specifically, we learn exposure masks to separate the hard and easy regions of a high dynamic scene. Then, we introduce two important guidances, dual intensity guidance, which guides less informative channels with more informative ones, and global spatial guidance, which extrapolates scene specifics over an extended spatial domain. To verify our Raw-to-HDR approach, we collect a large Raw/HDR paired dataset for both training and testing. Our empirical evaluations validate the superiority of the proposed Raw-to-HDR reconstruction model, as well as our newly captured dataset in the experiments.",
-  arxiv="https://arxiv.org/abs/2309.02020",
+  arxiv="2309.02020",
   preview="rawhdr.jpg",
 	year={2023}
 }
@@ -218,7 +218,7 @@ including object detection, panoramic segmentation, optical flow estimation, and
   selected={true},
   code="https://github.com/yunhao-zou/Deep-Noise-Estimation",
   pdf="https://openaccess.thecvf.com/content/CVPR2022/papers/Zou_Estimating_Fine-Grained_Noise_Model_via_Contrastive_Learning_CVPR_2022_paper.pdf",
-  arxiv="https://arxiv.org/abs/2204.01716",
+  arxiv="2204.01716",
   bibtex_show={true},
   abstract="Image denoising has achieved unprecedented progress as great efforts have been made to exploit effective deep denoisers. To improve the denoising performance in realworld, two typical solutions are used in recent trends: devising better noise models for the synthesis of more realistic training data, and estimating noise level function to guide non-blind denoisers. In this work, we combine both noise modeling and estimation, and propose an innovative noise model estimation and noise synthesis pipeline for realistic noisy image generation. Specifically, our model learns a noise estimation model with fine-grained statistical noise model in a contrastive manner. Then, we use the estimated noise parameters to model camera-specific noise distribution, and synthesize realistic noisy training data. The most striking thing for our work is that by calibrating noise models of several sensors, our model can be extended to predict other cameras. In other words, we can estimate cameraspecific noise models for unknown sensors with only testing images, without laborious calibration frames or paired noisy/clean data. The proposed pipeline endows deep denoisers with competitive performances with state-of-the-art real noise modeling methods.",
   preview="noise_estimate.png",
