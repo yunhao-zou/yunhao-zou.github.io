@@ -42,8 +42,8 @@ layout: default
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      <h2 style="margin-top: 7px; margin-bottom: 5px;">
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -51,17 +51,43 @@ layout: default
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      <h2 style="margin-top: 7px; margin-bottom: 5px;">
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Hornors and Awards -->
+    {% if page.awards %}
+      <h2 style="margin-top: 10px; margin-bottom: 10px;">
+        Hornors and Awards
+      </h2>
+        <ul style="padding-left: 1.2em;">
+          <li>Gold Award of the 49th Geneva International Invention Exhibition, 2024</li>
+          <li>Runner-up award of CVPR PBDL Highspeed HDR Video Reconstruction from Events challenge, 2024</li>
+          <li>Toyou Technologies Scholarship, Toyou Feiji Electronics Co., Ltd., 2022</li>
+          <li>China National Scholarship, Ministry of Education (Top 2% in the Ph.D Track), 2021</li>
+          <li>Excellent Student Award, Beijing Institute of Technology, 2020</li>
+        </ul>  
+    {% endif %}
+
+    <!-- Services -->
+    {% if page.awards %}
+      <h2 style="margin-top: 10px; margin-bottom: 10px;">
+        Services
+      </h2>
+        <ul style="padding-left: 1.2em;">
+          <li>Reviewer for Conferences: CVPR, ICCV, ECCV, AAAI, BMVC, ACCV, ICPR, CICAI</li>
+          <li>Reviewer for Journals: TPAMI, Neurocomputing, Displays, IJRS</li>
+          <li>Co-proposer and presenter for CVPR 2023 tutorial: <a href="https://cvpr.thecvf.com/virtual/2023/tutorial/18563"><b>Optics for Better AI: Capturing and Synthesizing Realistic Data for Low-light Enhancement</b></a></li>
+        </ul>  
     {% endif %}
 
     <!-- Social -->
