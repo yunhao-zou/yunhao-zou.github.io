@@ -59,6 +59,28 @@ table.table {
 .publications h2.bibliography {
   color: var(--global-text-color-light);
 }
+
+// Keep thumbnail columns compact; tall photos should not set the entry's height.
+.publications .abbr figure {
+  margin-bottom: 0;
+}
+.publications .abbr picture:has(> img.preview[src$="/rawhdr.jpg"]),
+.publications .abbr picture:has(> img.preview[src$="/event_cvpr.jpg"]) {
+  display: flex;
+  align-items: center;
+  aspect-ratio: 2 / 1;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.16),
+    0 2px 10px rgba(0, 0, 0, 0.12);
+
+  img.preview {
+    flex: 0 0 100%;
+    height: auto;
+  }
+}
+
 footer.fixed-bottom a:hover {
   color: var(--global-footer-link-color);
   text-decoration: underline;
