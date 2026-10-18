@@ -34,4 +34,5 @@ I research in various tasks in low-level vision, with extensive experience in co
   <a href="mailto:{{ site.data.socials.email }}">Email</a>
   <a href="https://scholar.google.com/citations?user=52s5QEQAAAAJ&hl=en">Google Scholar</a>
   <a href="https://github.com/yunhao-zou">GitHub</a>
+  <a href="https://www.linkedin.com/in/yunhao-zou-a71824318">LinkedIn</a>
 </nav>
