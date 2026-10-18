@@ -33,6 +33,11 @@ html[data-theme="dark"] {
   font-style: italic;
 }
 
+// Allow for italic overhang before following punctuation, especially exclamation marks.
+.news td strong {
+  margin-inline-end: 0.12em;
+}
+
 table.table {
   color: var(--global-text-color);
   &.table-hover tbody tr:hover {

@@ -49,7 +49,7 @@
     },
     {
       "name": "Generative AI",
-      "keywords": ["Image and video generation", "Diffusion and flow-based models", "Physically grounded generation", "World models"]
+      "keywords": ["Image and video generation", "Diffusion and flow-based models"]
     }
   ],
   "languages": [
