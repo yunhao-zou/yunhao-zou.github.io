@@ -15,7 +15,7 @@
       "studyType": "Ph.D.",
       "startDate": "2019-09",
       "endDate": "2025-06",
-      "highlights": ["Advisor: **Prof. Ying Fu**; research team led by Academician Jun Zhang."]
+      "highlights": ["Advisor: **Prof. Ying Fu**."]
     },
     {
       "institution": "University of Würzburg, Würzburg, Germany",
@@ -25,7 +25,7 @@
       "studyType": "Visiting Ph.D. Student",
       "startDate": "2024-03",
       "endDate": "2025-03",
-      "highlights": ["Advisor: **Prof. Radu Timofte**.", "Supported by the China Scholarship Council (CSC)."]
+      "highlights": ["Advisor: **Prof. Radu Timofte**."]
     },
     {
       "institution": "Beijing Institute of Technology, Beijing, China",
@@ -35,24 +35,21 @@
       "studyType": "B.S.",
       "startDate": "2015-09",
       "endDate": "2019-06",
-      "highlights": ["GPA: 3.7/4.0; ranked in the top 15%.", "Recommended for graduate admission without an entrance examination."]
+      "highlights": ["GPA: 3.7/4.0; ranked in the top 15%."]
     }
   ],
   "interests": [
     {
-      "name": "Computer Vision and Computational Photography",
-      "keywords": [
-        "Low-level vision",
-        "Image and video denoising",
-        "HDR imaging",
-        "Low-light enhancement",
-        "Computational imaging",
-        "Hyperspectral imaging"
-      ]
+      "name": "Computational Photography and Low-Level Vision",
+      "keywords": ["Image and video restoration", "Image and video enhancement"]
+    },
+    {
+      "name": "Physics-Based Modeling",
+      "keywords": ["Sensor noise modeling", "Realistic data synthesis", "Reducing the sim-to-real gap"]
     },
     {
       "name": "Generative AI",
-      "keywords": ["Image generation", "Video generation", "Diffusion models", "Flow-based generative models"]
+      "keywords": ["Image and video generation", "Diffusion and flow-based models", "Physically grounded generation", "World models"]
     }
   ],
   "languages": [

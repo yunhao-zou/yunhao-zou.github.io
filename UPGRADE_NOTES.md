@@ -18,10 +18,11 @@
 ## 有意保留的本地覆盖
 
 - `_layouts/about.liquid`：在新版首页布局中保留奖项和服务章节。
+- `_layouts/cv.liquid`：继续委托 CV 插件生成内容，将研究兴趣章节名改为 Research Interest，并供左侧目录使用。
 - `_includes/news.liquid`：支持每条新闻的 `date_format`，只显示已知的年或月份；没有设置时沿用上游的完整日期格式。
 - `assets/css/main.scss`：沿用新版入口，额外加载 `_sass/_site.scss` 中的个人配色和紧凑布局。
 
-这三处覆盖已经过审查并记录于 `.al-folio-overrides.yml`。其中新闻覆盖在毕业后信息更新时加入。后续升级插件后运行：
+这些覆盖已经过审查并记录于 `.al-folio-overrides.yml`。其中新闻和 CV 标题覆盖在毕业后信息更新时加入。后续升级插件后运行：
 
 ```bash
 bundle exec al-folio upgrade audit
