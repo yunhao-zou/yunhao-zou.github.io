@@ -31,6 +31,8 @@ bundle exec al-folio upgrade overrides audit
 
 `_plugins/local-preview.rb` 仅在开发模式且本地覆盖配置明确启用时，允许 Jekyll LiveReload 使用本机 35729 端口。生产环境的 CSP 保持上游默认值。
 
+`_plugins/site-css-cache-bust.rb` 将本站 `_sass/` 和 `assets/css/main.scss` 的内容摘要加入 CSS 资源版本号，补足核心主题只计算 gem 样式的行为，确保发布自定义样式后浏览器能加载新版本。
+
 ## 兼容性说明
 
 CV 使用新版统一布局，日期徽标按年份显示；JSON 文件中的日期按实际已知的年份或月份记录。
