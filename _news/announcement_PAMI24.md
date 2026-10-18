@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by TPAMI 2024!
-
+Our paper [EventHDR: From Event to High-Speed HDR Videos and Beyond](https://ieeexplore.ieee.org/document/10713104/) has been accepted to TPAMI!

@@ -7,4 +7,4 @@ inline: true
 related_posts: false
 ---
 
-I received a nomination for the CSIG Doctoral Dissertation Incentive Program (one of 10 nominees nationwide).
+I received a CSIG Outstanding Doctoral Dissertation Award nomination (one of 20 awardees and nominees nationwide).
