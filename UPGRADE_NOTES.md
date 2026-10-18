@@ -52,3 +52,16 @@ CV 使用新版统一布局，日期徽标按年份显示；JSON 文件中的完
 - 升级前后各有 93 个 HTML 页面，原页面路径全部保留；没有新增站内断链。
 - 实际浏览器已检查首页 News、论文列表和摘要展开、CV 内容与 PDF 下载链接，以及浅色、深色和跟随系统三种主题切换。
 - 生产构建未包含本地 LiveReload 的端口放行配置。
+
+本次使用的核心验证命令（在已配置的 WSL Ruby/Bundler 环境中执行）：
+
+```bash
+bundle _4.0.6_ exec jekyll build --config _config.yml,../.local/jekyll-local.yml --destination ../.local/site-v1
+JEKYLL_ENV=production bundle _4.0.6_ exec jekyll build --config _config.yml --destination ../.local/site-v1-production
+bundle _4.0.6_ exec bash test/integration_css_minify.sh
+bundle _4.0.6_ exec bash test/integration_upgrade_cli.sh
+bundle _4.0.6_ exec al-folio upgrade audit
+bundle _4.0.6_ exec al-folio upgrade overrides audit
+```
+
+格式检查使用锁定版本的 Prettier，对迁移过的配置、首页布局、个人样式和现有工作流执行 `--check`。
