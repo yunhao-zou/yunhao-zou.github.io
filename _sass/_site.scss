@@ -113,12 +113,26 @@ footer.sticky-bottom {
   }
 
   .post-title {
-    letter-spacing: -0.035em;
+    font-size: 2.75rem;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.0625rem;
+
+    &::after {
+      display: block;
+      width: 2.25rem;
+      height: 2px;
+      margin-top: 1rem;
+      background-color: var(--global-theme-color);
+      content: "";
+    }
   }
 
   .desc {
     color: var(--global-text-color-light);
     font-weight: 400;
+    margin-top: 0.75rem;
+    font-size: 1rem;
   }
 
   .home-intro > p {
@@ -175,7 +189,15 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
       font-size: 0.9rem;
       font-weight: 500;
+      font-variant-numeric: tabular-nums;
+      text-align: left;
       white-space: nowrap;
+    }
+
+    .news-date-month {
+      display: inline-block;
+      width: 2em;
+      color: inherit;
     }
 
     td {
@@ -251,6 +273,10 @@ footer.sticky-bottom {
       width: 7.4rem !important;
       padding-right: 0.65rem;
       font-size: 0.85rem;
+    }
+
+    .news .news-date-month {
+      width: 2em;
     }
   }
 }

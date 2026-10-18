@@ -17,7 +17,13 @@
         {% for item in news limit: news_limit %}
           {% assign news_date_format = item.date_format | default: '%b %d, %Y' %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: news_date_format }}</th>
+            <th scope="row" style="width: 20%">
+              {% if news_date_format == '%b %Y' %}
+                <span class="news-date-month">{{ item.date | date: '%b' }} </span>{{ item.date | date: '%Y' }}
+              {% else %}
+                {{ item.date | date: news_date_format }}
+              {% endif %}
+            </th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
