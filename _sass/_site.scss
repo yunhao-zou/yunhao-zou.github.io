@@ -41,6 +41,9 @@ table.table {
 .pagination .page-item.active .page-link {
   color: var(--global-hover-text-color);
 }
+.publications h2.bibliography {
+  color: var(--global-text-color-light);
+}
 footer.fixed-bottom a:hover {
   color: var(--global-footer-link-color);
   text-decoration: underline;
@@ -78,11 +81,11 @@ footer.sticky-bottom {
     margin-bottom: 1.1rem;
   }
 
-  .home-intro > .availability-note {
+  .home-intro > .collaboration-note {
     clear: both;
     padding-left: 0.85rem;
-    border-left: 2px solid var(--global-highlight-color);
-    color: var(--global-highlight-color);
+    border-left: 2px solid var(--global-theme-color);
+    color: var(--global-theme-color);
     font-size: 0.95rem;
     line-height: 1.55;
   }

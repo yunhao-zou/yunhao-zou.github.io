@@ -18,9 +18,10 @@
 ## 有意保留的本地覆盖
 
 - `_layouts/about.liquid`：在新版首页布局中保留奖项和服务章节。
+- `_includes/news.liquid`：支持每条新闻的 `date_format`，只显示已知的年或月份；没有设置时沿用上游的完整日期格式。
 - `assets/css/main.scss`：沿用新版入口，额外加载 `_sass/_site.scss` 中的个人配色和紧凑布局。
 
-这两处覆盖已经过审查并记录于 `.al-folio-overrides.yml`。后续升级插件后运行：
+这三处覆盖已经过审查并记录于 `.al-folio-overrides.yml`。其中新闻覆盖在毕业后信息更新时加入。后续升级插件后运行：
 
 ```bash
 bundle exec al-folio upgrade audit
@@ -31,7 +32,7 @@ bundle exec al-folio upgrade overrides audit
 
 ## 兼容性说明
 
-CV 使用新版统一布局，日期徽标按年份显示；JSON 文件中的完整日期保持原样。
+CV 使用新版统一布局，日期徽标按年份显示；JSON 文件中的日期按实际已知的年份或月份记录。
 
 现有模板示例文章 `_posts/2023-03-21-tables.md` 还包含四个旧式 `data-toggle` 标记，因此启用了上游提供的 Bootstrap 兼容层。当前 v1.2 支持此模式；升级到 v1.3 或 v2 前需要再次检查这篇示例文章。迁移审计没有阻断项。
 

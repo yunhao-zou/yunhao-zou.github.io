@@ -5,8 +5,9 @@
 This repository is Yunhao Zou's personal site, not the upstream starter itself.
 Its production URL is `https://yunhao-zou.github.io` and `baseurl` must remain empty.
 Local site overrides are intentional and supported: `_layouts/about.liquid` retains
-the personal awards/services sections, and `assets/css/main.scss` loads the palette
-in `_sass/_site.scss`. Keep `.al-folio-overrides.yml` in sync after reviewing changes.
+the personal awards/services sections, `_includes/news.liquid` respects each news
+item's date precision, and `assets/css/main.scss` loads `_sass/_site.scss`.
+Keep `.al-folio-overrides.yml` in sync after reviewing changes.
 Use `UPGRADE_NOTES.md` for the migration details. Do not apply the upstream starter's
 blanket prohibition on local override directories to this personal site.
 
