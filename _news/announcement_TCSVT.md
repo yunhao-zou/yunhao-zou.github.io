@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by TCSVT 2023!
+One paper is accepted by **TCSVT 2023**!

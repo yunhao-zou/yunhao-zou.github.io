@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by TGRS 2023!
+One paper is accepted by **TGRS 2023**!

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers are accepted by ICCV 2023!
+Two papers are accepted by **ICCV 2023**!

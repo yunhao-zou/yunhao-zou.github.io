@@ -16,6 +16,21 @@ html[data-theme="dark"] {
   --global-footer-link-color: #ffffff;
   --site-control-border: #777777;
 }
+
+// Editorial emphasis uses the active theme's accent, with readable body text around it.
+.text-emphasis,
+.cv .interest-item > strong {
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+.home-intro strong,
+.news td strong,
+.home-detail-list strong,
+.cv p strong,
+.cv .item strong {
+  font-weight: 600;
+}
+
 table.table {
   color: var(--global-text-color);
   &.table-hover tbody tr:hover {
@@ -85,7 +100,7 @@ footer.sticky-bottom {
     clear: both;
     padding-left: 0.85rem;
     border-left: 2px solid var(--global-theme-color);
-    color: var(--global-theme-color);
+    color: var(--global-text-color);
     font-size: 0.95rem;
     line-height: 1.55;
   }

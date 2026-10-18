@@ -7,4 +7,4 @@ inline: true
 related_posts: false
 ---
 
-I received my Ph.D. in Computer Science and Technology from Beijing Institute of Technology, where my dissertation was recognized as an Outstanding Doctoral Dissertation!
+I received my **Ph.D.** in Computer Science and Technology from Beijing Institute of Technology, where my dissertation was recognized as an **Outstanding Doctoral Dissertation**!

@@ -23,11 +23,11 @@ latest_posts:
   limit: 3
 ---
 
-I am a Staff Algorithm Engineer at OPPO, which I joined in July 2026. I received my Ph.D. in Computer Science and Technology from [Beijing Institute of Technology](https://bit.edu.cn/) in June 2025, advised by [Prof. Ying Fu](https://ying-fu.github.io/). From 2024 to 2025, I was a visiting Ph.D. student at [the University of Würzburg](https://www.uni-wuerzburg.de/), working with [Prof. Radu Timofte](https://www.informatik.uni-wuerzburg.de/computervision/). I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2019.
+I am a **Staff Algorithm Engineer at OPPO**, which I joined in July 2026. I received my **Ph.D.** in Computer Science and Technology from [Beijing Institute of Technology](https://bit.edu.cn/) in June 2025, advised by [Prof. Ying Fu](https://ying-fu.github.io/). From 2024 to 2025, I was a visiting Ph.D. student at [the University of Würzburg](https://www.uni-wuerzburg.de/), working with [Prof. Radu Timofte](https://www.informatik.uni-wuerzburg.de/computervision/). I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2019.
 
-My research focuses on computational photography and low-level vision, with an emphasis on image and video restoration and enhancement. I am also interested in generative models for image and video generation, and in connecting visual restoration with generation.
+My research focuses on **computational photography** and **low-level vision**, with an emphasis on image and video restoration and enhancement. I am also interested in <strong class="text-emphasis">generative models for image and video generation</strong>, and in connecting visual restoration with generation.
 
-<p class="collaboration-note">I love exploring how technology works and turning ideas into practical solutions. I welcome technical discussions and research collaborations with fellow researchers and engineers who share this curiosity.
+<p class="collaboration-note">I love exploring how technology works and turning ideas into practical solutions. I welcome <strong class="text-emphasis">technical discussions and research collaborations</strong> with fellow researchers and engineers who share this curiosity.
 </p>
 
 <nav class="home-contact-links" aria-label="Contact and research profiles">

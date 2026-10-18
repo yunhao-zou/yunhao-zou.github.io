@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our NightSightHD wins the gold award at the 49th Geneva International Exhibition of Inventions！
+Our NightSightHD wins the **gold award** at the 49th Geneva International Exhibition of Inventions！

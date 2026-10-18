@@ -23,7 +23,7 @@
       "studyType": "Ph.D.",
       "startDate": "2019-09",
       "endDate": "2025-06",
-      "highlights": ["Advisor: Prof. Ying Fu; research team led by Academician Jun Zhang."]
+      "highlights": ["Advisor: **Prof. Ying Fu**; research team led by Academician Jun Zhang."]
     },
     {
       "institution": "University of Würzburg, Würzburg, Germany",
@@ -33,7 +33,7 @@
       "studyType": "Visiting Ph.D. Student",
       "startDate": "2024-03",
       "endDate": "2025-03",
-      "highlights": ["Advisor: Prof. Radu Timofte.", "Supported by the China Scholarship Council (CSC)."]
+      "highlights": ["Advisor: **Prof. Radu Timofte**.", "Supported by the China Scholarship Council (CSC)."]
     },
     {
       "institution": "Beijing Institute of Technology, Beijing, China",
@@ -77,7 +77,7 @@
       "title": "Outstanding Doctoral Dissertation Award Nominee",
       "date": "2025-11",
       "awarder": "China Society of Image and Graphics (CSIG)",
-      "summary": "One of 20 awardees and nominees nationwide."
+      "summary": "One of **20 awardees and nominees** nationwide."
     },
     {
       "title": "Outstanding Doctoral Dissertation",
@@ -98,7 +98,7 @@
       "title": "China National Scholarship",
       "date": "2024",
       "awarder": "Ministry of Education, China",
-      "summary": "Top 2% of Ph.D. students; also awarded in 2021."
+      "summary": "**Top 2%** of Ph.D. students; also awarded in 2021."
     },
     {
       "title": "Scholarship for Overseas Joint Doctoral Study",
@@ -120,7 +120,7 @@
       "title": "China National Scholarship",
       "date": "2021",
       "awarder": "Ministry of Education, China",
-      "summary": "Top 2% of Ph.D. students."
+      "summary": "**Top 2%** of Ph.D. students."
     }
   ],
   "publications": [
@@ -129,63 +129,63 @@
       "publisher": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)",
       "releaseDate": "2025",
       "url": "https://doi.org/10.1109/TPAMI.2025.3550264",
-      "summary": "Yunhao Zou, Ying Fu, Yulun Zhang, Tao Zhang, Chenggang Yan, and Radu Timofte. Vol. 47, no. 7, pp. 5368–5384."
+      "summary": "**Yunhao Zou**, Ying Fu, Yulun Zhang, Tao Zhang, Chenggang Yan, and Radu Timofte. Vol. 47, no. 7, pp. 5368–5384."
     },
     {
       "title": "EventHDR: From Event to High-Speed HDR Videos and Beyond",
       "publisher": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)",
       "releaseDate": "2025",
       "url": "https://ieeexplore.ieee.org/document/10713104/",
-      "summary": "Yunhao Zou, Ying Fu, Tsuyoshi Takatani, and Yinqiang Zheng. Vol. 47, no. 1, pp. 32–50; first published online in 2024."
+      "summary": "**Yunhao Zou**, Ying Fu, Tsuyoshi Takatani, and Yinqiang Zheng. Vol. 47, no. 1, pp. 32–50; first published online in 2024."
     },
     {
       "title": "RawHDR: High Dynamic Range Image Reconstruction from a Single Raw Image",
       "publisher": "International Conference on Computer Vision (ICCV)",
       "releaseDate": "2023",
       "url": "https://arxiv.org/abs/2309.02020",
-      "summary": "Yunhao Zou, Chenggang Yan, and Ying Fu."
+      "summary": "**Yunhao Zou**, Chenggang Yan, and Ying Fu."
     },
     {
       "title": "Iterative Denoiser and Noise Estimator for Self-Supervised Image Denoising",
       "publisher": "International Conference on Computer Vision (ICCV)",
       "releaseDate": "2023",
       "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zou_Iterative_Denoiser_and_Noise_Estimator_for_Self-Supervised_Image_Denoising_ICCV_2023_paper.pdf",
-      "summary": "Yunhao Zou, Chenggang Yan, and Ying Fu."
+      "summary": "**Yunhao Zou**, Chenggang Yan, and Ying Fu."
     },
     {
       "title": "Estimating Fine-Grained Noise Model via Contrastive Learning",
       "publisher": "Conference on Computer Vision and Pattern Recognition (CVPR)",
       "releaseDate": "2022",
       "url": "https://arxiv.org/abs/2204.01716",
-      "summary": "Yunhao Zou and Ying Fu."
+      "summary": "**Yunhao Zou** and Ying Fu."
     },
     {
       "title": "Learning to Reconstruct High Speed and High Dynamic Range Videos from Events",
       "publisher": "Conference on Computer Vision and Pattern Recognition (CVPR)",
       "releaseDate": "2021",
       "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zou_Learning_To_Reconstruct_High_Speed_and_High_Dynamic_Range_Videos_CVPR_2021_paper.pdf",
-      "summary": "Yunhao Zou, Yinqiang Zheng, Tsuyoshi Takatani, and Ying Fu."
+      "summary": "**Yunhao Zou**, Yinqiang Zheng, Tsuyoshi Takatani, and Ying Fu."
     },
     {
       "title": "CSR-Net: Camera Spectral Response Network for Dimensionality Reduction and Classification in Hyperspectral Imagery",
       "publisher": "Remote Sensing",
       "releaseDate": "2020",
       "url": "https://www.mdpi.com/2072-4292/12/20/3294",
-      "summary": "Yunhao Zou, Ying Fu, Yinqiang Zheng, and Wei Li."
+      "summary": "**Yunhao Zou**, Ying Fu, Yinqiang Zheng, and Wei Li."
     },
     {
       "title": "Illumination Modulation for Reflective and Fluorescent Separation",
       "publisher": "Optics Letters",
       "releaseDate": "2020",
       "url": "https://opg.optica.org/ol/viewmedia.cfm?uri=ol-45-5-1120&seq=0",
-      "summary": "Ying Fu, Yunhao Zou, Liheng Bian, Yuxiang Guo, and Hua Huang. Student first-author work."
+      "summary": "Ying Fu, **Yunhao Zou**, Liheng Bian, Yuxiang Guo, and Hua Huang. Student first-author work."
     },
     {
       "title": "Spectral Reflectance Recovery Using Optimal Illuminations",
       "publisher": "Optics Express",
       "releaseDate": "2019",
       "url": "https://opg.optica.org/oe/abstract.cfm?uri=oe-27-21-30502",
-      "summary": "Ying Fu, Yunhao Zou, Yinqiang Zheng, and Hua Huang. Student first-author work."
+      "summary": "Ying Fu, **Yunhao Zou**, Yinqiang Zheng, and Hua Huang. Student first-author work."
     }
   ],
   "projects": [
@@ -194,8 +194,8 @@
       "startDate": "2021-06",
       "summary": "Research at Beijing Institute of Technology and the University of Würzburg.",
       "highlights": [
-        "Developed contrastive learning methods for fine-grained noise estimation and camera-specific noise synthesis, enabling calibration-free denoising (CVPR 2022, TPAMI 2025).",
-        "Designed an iterative denoiser and noise estimator for self-supervised learning from individual noisy images (ICCV 2023)."
+        "Developed contrastive learning methods for fine-grained noise estimation and camera-specific noise synthesis, enabling **calibration-free denoising** (CVPR 2022, TPAMI 2025).",
+        "Designed an iterative denoiser and noise estimator for **self-supervised learning** from individual noisy images (ICCV 2023)."
       ]
     },
     {
@@ -203,9 +203,9 @@
       "startDate": "2020-06",
       "summary": "Research at Beijing Institute of Technology and the University of Würzburg, in collaboration with the University of Tokyo.",
       "highlights": [
-        "Built an optical system and paired high-speed HDR video/event dataset, and developed recurrent reconstruction models (CVPR 2021, TPAMI 2025).",
-        "Collected paired RAW/HDR data and developed intensity and spatial guidance for reconstruction from a single RAW image (ICCV 2023).",
-        "Contributed to a key NSFC project on computational imaging for lunar exploration; two first-author works supported its imaging algorithms."
+        "Built an optical system and **paired high-speed HDR video/event dataset**, and developed recurrent reconstruction models (CVPR 2021, TPAMI 2025).",
+        "Collected paired RAW/HDR data and developed intensity and spatial guidance for reconstruction from a **single RAW image** (ICCV 2023).",
+        "Contributed to a **key NSFC project** on computational imaging for lunar exploration; two first-author works supported its imaging algorithms."
       ]
     },
     {
@@ -213,9 +213,9 @@
       "startDate": "2020-07",
       "summary": "Research at Beijing Institute of Technology in collaboration with Huawei Hangzhou Research Institute and Huawei Noah's Ark Lab.",
       "highlights": [
-        "Developed and evaluated physics-based sensor noise modeling and calibration methods.",
-        "Studied RAW-domain video enhancement using real noise analysis, paired video acquisition, and lightweight re-parameterized networks.",
-        "Mentored work on a 3D deformable U-Net for low-light video enhancement (PRCV 2021)."
+        "Developed and evaluated physics-based **sensor noise modeling and calibration** methods.",
+        "Studied RAW-domain video enhancement using real noise analysis, paired video acquisition, and **lightweight re-parameterized networks**.",
+        "Mentored work on a **3D deformable U-Net** for low-light video enhancement (PRCV 2021)."
       ]
     },
     {
@@ -224,9 +224,9 @@
       "endDate": "2020-08",
       "summary": "Research at Beijing Institute of Technology in collaboration with the University of Tokyo.",
       "highlights": [
-        "Studied learned illumination for spectral reflectance recovery (Optics Express 2019).",
-        "Developed illumination modulation for reflective/fluorescent separation (Optics Letters 2020).",
-        "Learned camera spectral responses and spectral-spatial features for efficient hyperspectral classification (Remote Sensing 2020)."
+        "Studied **learned illumination** for spectral reflectance recovery (Optics Express 2019).",
+        "Developed **illumination modulation** for reflective/fluorescent separation (Optics Letters 2020).",
+        "Learned **camera spectral responses** and spectral-spatial features for efficient hyperspectral classification (Remote Sensing 2020)."
       ]
     }
   ],

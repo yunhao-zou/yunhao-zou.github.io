@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by CVPR 2022!
+One paper is accepted by **CVPR 2022**!

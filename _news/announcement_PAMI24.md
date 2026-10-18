@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [EventHDR: From Event to High-Speed HDR Videos and Beyond](https://ieeexplore.ieee.org/document/10713104/) has been accepted to TPAMI!
+Our paper [EventHDR: From Event to High-Speed HDR Videos and Beyond](https://ieeexplore.ieee.org/document/10713104/) has been accepted to **TPAMI**!
