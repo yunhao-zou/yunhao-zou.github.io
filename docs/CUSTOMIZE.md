@@ -341,64 +341,29 @@ Understanding how these technologies work together will help you customize al-fo
 
 ## Modifying the CV information
 
-Your CV can be created using one of two formats. Choose the format that works best for you, or use both simultaneously by switching between them:
-
-### RenderCV Format (Recommended)
-
-[`_data/cv.yml`](../_data/cv.yml) uses the [RenderCV](https://rendercv.com/) YAML format, which is human-readable and designed specifically for generating professional resumes. This format also enables optional automatic PDF generation via GitHub Actions.
-
-**If you choose this format:**
-
-1. Edit your CV data in [`_data/cv.yml`](../_data/cv.yml)
-2. Optionally customize how the PDF is styled by editing:
-   - [`assets/rendercv/design.yaml`](../assets/rendercv/design.yaml) — Design and styling
-   - [`assets/rendercv/locale.yaml`](../assets/rendercv/locale.yaml) — Localization and formatting
-   - [`assets/rendercv/settings.yaml`](../assets/rendercv/settings.yaml) — RenderCV settings
-3. To display only this format, delete [`assets/json/resume.json`](../assets/json/resume.json) (optional)
-
-### JSONResume Format
-
-[`assets/json/resume.json`](../assets/json/resume.json) uses the [JSONResume](https://jsonresume.org/) standard format, which is compatible with other tools and services.
-
-**If you choose this format:**
-
-1. Edit your CV data in [`assets/json/resume.json`](../assets/json/resume.json)
-2. To display only this format, delete [`_data/cv.yml`](../_data/cv.yml) (optional)
-
-### Using Both Formats Simultaneously
-
-You can keep both [`_data/cv.yml`](../_data/cv.yml) and [`assets/json/resume.json`](../assets/json/resume.json) in your repository and switch between them on your website by setting the `cv_format` frontmatter variable in [`_pages/cv.md`](../_pages/cv.md):
+This personal site uses the [JSONResume](https://jsonresume.org/) data in [`assets/json/resume.json`](../assets/json/resume.json).
+Edit that file to update the web CV. Its format is selected in [`_pages/cv.md`](../_pages/cv.md):
 
 ```yaml
 ---
 layout: cv
-cv_format: rendercv # options: rendercv or jsonresume
+cv_format: jsonresume
 ---
 ```
 
-Change `rendercv` to `jsonresume` to display the JSONResume format instead.
+### Downloadable PDF
 
-### Automatic PDF Generation (RenderCV only)
-
-If you use the RenderCV format, a GitHub Actions workflow can automatically generate a PDF version of your CV whenever you push changes to [`_data/cv.yml`](../_data/cv.yml). The PDF is saved to `assets/rendercv/rendercv_output/`.
-
-**To link the auto-generated PDF to your CV page:**
-
-Set the `cv_pdf` variable in the frontmatter of [`_pages/cv.md`](../_pages/cv.md) to point to the generated PDF:
+The download button points to the separately maintained [`CV_YunhaoZou_EN.pdf`](../assets/pdf/CV_YunhaoZou_EN.pdf):
 
 ```yaml
 ---
 layout: cv
-cv_pdf: /assets/rendercv/rendercv_output/CV.pdf
-cv_format: rendercv
+cv_pdf: /assets/pdf/CV_YunhaoZou_EN.pdf
+cv_format: jsonresume
 ---
 ```
 
-This will add a download button on your CV page that links to the PDF. (The exact filename depends on your RenderCV settings—check the output directory after the first workflow run to see the generated PDF name.)
-
-**To disable automatic PDF generation:**
-
-Delete or comment out the [`.github/workflows/render-cv.yml`](../.github/workflows/render-cv.yml) workflow file.
+Changing the JSON data does not regenerate this PDF. This repository has no RenderCV settings directory or automatic PDF generation workflow.
 
 ## Modifying the user and repository information
 
@@ -562,7 +527,7 @@ To create a new collection, follow these steps. We will create a `courses` colle
 
 3. **Create a landing page for your collection**
 
-   Add a Markdown file in `_pages/` (e.g., `courses.md`) that will serve as the main page for your collection. You can use [\_pages/projects.md](../_pages/projects.md) or [\_pages/books.md](../_pages/books.md) as a template and adapt it for your needs.
+   Add a Markdown file in `_pages/` (e.g., `courses.md`) that will serve as the main page for your collection. You can use [\_pages/projects.md](../_pages/projects.md) as a template and adapt it for your needs.
 
    In your landing page, access your collection using the `site.COLLECTION_NAME` variable:
 
@@ -1228,7 +1193,7 @@ To update a library:
 1. Change the `version` number
 2. Obtain the new integrity hash for the updated library version and update the `integrity` field with the new hash. You can:
    - Check if the CDN provider (e.g., jsDelivr, cdnjs, unpkg) provides the SRI hash for the file. Many CDN sites display the SRI hash alongside the file URL.
-   - Generate the SRI hash yourself using a tool such as [SRI Hash Generator](https://www.srihash.org/) or by running the following command in your terminal:
+   - Generate the SRI hash yourself by running the following command in your terminal:
 
      ```bash
      curl -sL [FILE_URL] | openssl dgst -sha384 -binary | openssl base64 -A

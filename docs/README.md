@@ -30,7 +30,7 @@ When changing feature behavior, route the work to the owning plugin repo first. 
 
 - `Gemfile` dependency pins,
 - `_config.yml` plugin activation or feature flags,
-- `_data/featured_plugins.yml` catalog metadata (rendered as the [plugin catalog page](https://alshedivat.github.io/al-folio/plugins/), source [`_pages/plugins.md`](../_pages/plugins.md)),
+- [`_data/featured_plugins.yml`](../_data/featured_plugins.yml) catalog metadata (the upstream [plugin catalog page](https://alshedivat.github.io/al-folio/plugins/) is not included in this personal site),
 - documentation, examples, integration tests, or visual parity coverage.
 
 See [Ownership Boundaries](BOUNDARIES.md) for the full routing table.

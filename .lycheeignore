@@ -14,3 +14,9 @@ https://www.reddit.com/
 README.md
 docs/SEO.md
 docs/SHOWCASE.md
+
+# The sample redirect destination returns HTTP 401 to automated requests.
+^https://unsplash\.com/?$
+
+# DeepWiki repeatedly rate-limits automated requests with HTTP 429.
+^https://deepwiki\.com/alshedivat/al-folio/?$

@@ -44,10 +44,8 @@ We no longer accept pull requests that add entries to this list. Instead, **post
 <a href="https://julianstreyczek.github.io" target="_blank">★</a>
 <a href="https://sdaza.com" target="_blank">★</a>
 <a href="https://niweera.com/" target="_blank">★</a>
-<a href="https://www.alihkw.com" target="_blank">★</a>
 <a href="https://amirpourmand.ir" target="_blank">★</a>
 <a href="https://scottleechua.github.io" target="_blank">★</a>
-<a href="https://sk1y101.github.io" target="_blank">★</a>
 <a href="https://yyang768osu.github.io" target="_blank">★</a>
 <a href="https://veedata.github.io" target="_blank">★</a>
 <a href="https://K-Wu.github.io" target="_blank">★</a>
@@ -120,7 +118,6 @@ We no longer accept pull requests that add entries to this list. Instead, **post
 <a href="https://acad.garywei.dev/" target="_blank">★</a>
 <a href="https://tonideleo.github.io/" target="_blank">★</a>
 <a href="https://alonkellner.com/" target="_blank">★</a>
-<a href="https://mingsun-kaust.github.io/" target="_blank">★</a>
 <a href="https://hdocmsu.github.io/" target="_blank">★</a>
 <a href="https://trandangtrungduc.github.io/" target="_blank">★</a>
 <a href="https://mumarshahbaz.com/" target="_blank">★</a>
