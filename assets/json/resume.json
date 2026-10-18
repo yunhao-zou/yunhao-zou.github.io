@@ -6,14 +6,6 @@
     "email": "yunhaozou@outlook.com",
     "url": "https://yunhao-zou.github.io"
   },
-  "work": [
-    {
-      "name": "OPPO",
-      "position": "Staff Algorithm Engineer",
-      "startDate": "2026-07",
-      "summary": "Joined OPPO in July 2026."
-    }
-  ],
   "education": [
     {
       "institution": "Beijing Institute of Technology, Beijing, China",
@@ -44,32 +36,6 @@
       "startDate": "2015-09",
       "endDate": "2019-06",
       "highlights": ["GPA: 3.7/4.0; ranked in the top 15%.", "Recommended for graduate admission without an entrance examination."]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CVPR 2023",
-      "position": "Tutorial Co-organizer and Presenter",
-      "date": "2023",
-      "url": "https://cvpr.thecvf.com/virtual/2023/tutorial/18563",
-      "summary": "Optics for Better AI: Capturing and Synthesizing Realistic Data for Low-light Enhancement."
-    },
-    {
-      "organization": "Beijing Institute of Technology",
-      "position": "Teaching Assistant, Computer Vision",
-      "startDate": "2021",
-      "endDate": "2023",
-      "summary": "Fall semesters, 2021–2023."
-    },
-    {
-      "organization": "International Conferences",
-      "position": "Reviewer",
-      "summary": "CVPR, ICCV, ECCV, NeurIPS, ICLR, AAAI, ACM MM, BMVC, ACCV."
-    },
-    {
-      "organization": "International Journals",
-      "position": "Reviewer",
-      "summary": "TPAMI, TIP, Information Fusion, Neurocomputing, Displays, IJRS."
     }
   ],
   "interests": [
