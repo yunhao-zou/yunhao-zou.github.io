@@ -1,11 +1,10 @@
 {
   "basics": {
-    "name": "Yunhao Zou",
+    "name": "Yunhao Zou, Ph.D.",
     "label": "Staff Algorithm Engineer, OPPO",
     "image": "",
     "email": "yunhaozou@outlook.com",
-    "url": "https://yunhao-zou.github.io",
-    "summary": "Staff Algorithm Engineer at OPPO since July 2026. I received my Ph.D. from Beijing Institute of Technology in June 2025. My research focuses on computational photography and low-level vision, including image denoising, HDR imaging, and low-light enhancement. I am also interested in generative AI, particularly image and video generation."
+    "url": "https://yunhao-zou.github.io"
   },
   "work": [
     {
@@ -76,13 +75,13 @@
   "awards": [
     {
       "title": "Doctoral Dissertation Incentive Program Nominee",
-      "date": "2025",
+      "date": "2025-11",
       "awarder": "China Society of Image and Graphics (CSIG)",
-      "summary": "Top 20 nationwide."
+      "summary": "One of 10 nominees nationwide."
     },
     {
       "title": "Outstanding Doctoral Dissertation",
-      "date": "2025",
+      "date": "2025-06",
       "awarder": "Beijing Institute of Technology"
     },
     {
@@ -133,11 +132,11 @@
       "summary": "Yunhao Zou, Ying Fu, Yulun Zhang, Tao Zhang, Chenggang Yan, and Radu Timofte. Vol. 47, no. 7, pp. 5368–5384."
     },
     {
-      "title": "EventHDR: from Event to High-Speed HDR Videos and Beyond",
+      "title": "EventHDR: From Event to High-Speed HDR Videos and Beyond",
       "publisher": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)",
-      "releaseDate": "2024",
-      "url": "https://arxiv.org/abs/2409.17029",
-      "summary": "Yunhao Zou, Ying Fu, Tsuyoshi Takatani, and Yinqiang Zheng."
+      "releaseDate": "2025",
+      "url": "https://ieeexplore.ieee.org/document/10713104/",
+      "summary": "Yunhao Zou, Ying Fu, Tsuyoshi Takatani, and Yinqiang Zheng. Vol. 47, no. 1, pp. 32–50; first published online in 2024."
     },
     {
       "title": "RawHDR: High Dynamic Range Image Reconstruction from a Single Raw Image",
@@ -204,7 +203,7 @@
       "startDate": "2020-06",
       "summary": "Research at Beijing Institute of Technology and the University of Würzburg, in collaboration with the University of Tokyo.",
       "highlights": [
-        "Built an optical system and paired high-speed HDR video/event dataset, and developed recurrent reconstruction models (CVPR 2021, TPAMI 2024).",
+        "Built an optical system and paired high-speed HDR video/event dataset, and developed recurrent reconstruction models (CVPR 2021, TPAMI 2025).",
         "Collected paired RAW/HDR data and developed intensity and spatial guidance for reconstruction from a single RAW image (ICCV 2023).",
         "Contributed to a key NSFC project on computational imaging for lunar exploration; two first-author works supported its imaging algorithms."
       ]

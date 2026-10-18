@@ -27,7 +27,7 @@ I am a Staff Algorithm Engineer at OPPO, which I joined in July 2026. I received
 
 I research in various tasks in low-level vision, with extensive experience in computational photography, image denoising, HDR image/video reconstruction, and low-light enhancement. I also had research experiences in computational imaging and hyperspectral imaging. I am enthusiastic in enhancing the quality of everyday images and videos through AI technologies. I am also interested in generative AI, particularly image and video generation.
 
-<p class="collaboration-note">I welcome research collaborations in computational photography, low-level vision, and generative AI. Feel free to get in touch!
+<p class="collaboration-note">I welcome collaboration and discussions on computational photography, low-level vision, and generative AI. Feel free to get in touch!
 </p>
 
 <nav class="home-contact-links" aria-label="Contact and research profiles">

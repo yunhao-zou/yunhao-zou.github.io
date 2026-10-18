@@ -84,6 +84,8 @@
   pages={5368--5384},
   doi={10.1109/TPAMI.2025.3550264},
   html={https://ieeexplore.ieee.org/document/10938243/},
+  code={https://github.com/yunhao-zou/Deep-Noise-Estimation},
+  preview={noise_estimate.png},
   abbr={TPAMI},
   selected={true},
   bibtex_show={true},
@@ -93,8 +95,13 @@
 @ARTICLE{zou2024learning,
   author={Zou, Yunhao and Fu, Ying and Takatani, Tsuyoshi and Zheng, Yinqiang},
   journal=PAMI,
-  title={EventHDR: from Event to High-Speed HDR Videos and Beyond}, 
-  year={2024},
+  title={EventHDR: From Event to High-Speed HDR Videos and Beyond},
+  year={2025},
+  volume={47},
+  number={1},
+  doi={10.1109/TPAMI.2024.3469571},
+  html={https://ieeexplore.ieee.org/document/10713104/},
+  abbr={TPAMI},
   selected={true},
   code="https://github.com/yunhao-zou/EventHDR",
   preview="event_pami.png",
@@ -111,10 +118,27 @@ facilitating future research in this field. Our dataset provides the first real 
 potential inaccuracies from simulation strategies. Experimental results demonstrate that our method can generate high-quality, highspeed
 HDR videos. We further explore the potential of our work in cross-camera reconstruction and downstream computer vision tasks,
 including object detection, panoramic segmentation, optical flow estimation, and monocular depth estimation under HDR scenarios.",
-  pages={1-18}
+  pages={32--50}
+}
+
+@inproceedings{li2025physical,
+  title={Physical Degradation Model-Guided Interferometric Hyperspectral Reconstruction with Unfolding Transformer},
+  author={Li, Yuansheng and Zou, Yunhao and Chen, Linwei and Fu, Ying},
+  booktitle=ICCV,
+  year={2025},
+  pages={13815--13825},
+  abbr={ICCV},
+  html={https://openaccess.thecvf.com/content/ICCV2025/html/Li_Physical_Degradation_Model-Guided_Interferometric_Hyperspectral_Reconstruction_with_Unfolding_Transformer_ICCV_2025_paper.html},
+  pdf={https://openaccess.thecvf.com/content/ICCV2025/papers/Li_Physical_Degradation_Model-Guided_Interferometric_Hyperspectral_Reconstruction_with_Unfolding_Transformer_ICCV_2025_paper.pdf},
+  code={https://github.com/bit1120203554/IHRUT},
+  preview={ihrut_iccv2025.png},
+  bibtex_show={true},
+  abstract={A physical degradation model and estimated system parameters are used to synthesize paired training data for interferometric hyperspectral imaging. An unfolding Transformer reconstructs hyperspectral scenes while accounting for sensor noise and optical errors. The pipeline links calibration, data synthesis, learning, and reconstruction.}
 }
 
 @inproceedings{zou2023rawhdr,
+	abbr={ICCV},
+  html={https://openaccess.thecvf.com/content/ICCV2023/html/Zou_RawHDR_High_Dynamic_Range_Image_Reconstruction_from_a_Single_Raw_ICCV_2023_paper.html},
 	title={RawHDR: High Dynamic Range Image Reconstruction from a Single Raw Image},
 	author={Zou, Yunhao and Yan, Chenggang and Fu, Ying},
 	booktitle=ICCV,
@@ -130,6 +154,8 @@ including object detection, panoramic segmentation, optical flow estimation, and
 }
 
 @article{fu2023raw,
+	abbr={TCSVT},
+	doi={10.1109/TCSVT.2023.3311766},
 	title={Raw image based over-exposure correction using channel-guidance strategy},
 	author={Fu, Ying and Hong, Yang and Zou, Yunhao and Liu, Qiankun and Zhang, Yiming and Liu, Ning and Yan, Chenggang},
 	journal=TCSVT,
@@ -146,6 +172,8 @@ including object detection, panoramic segmentation, optical flow estimation, and
 }
 
 @inproceedings{zou2023iterative,
+	abbr={ICCV},
+  html={https://openaccess.thecvf.com/content/ICCV2023/html/Zou_Iterative_Denoiser_and_Noise_Estimator_for_Self-Supervised_Image_Denoising_ICCV_2023_paper.html},
 	title={Iterative Denoiser and Noise Estimator for Self-Supervised Image Denoising},
 	author={Zou, Yunhao and Yan, Chenggang and Fu, Ying},
 	booktitle=ICCV,
@@ -160,6 +188,8 @@ including object detection, panoramic segmentation, optical flow estimation, and
 }
 
 @inproceedings{wang2024multi,
+	abbr={CVPR},
+  html={https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Multi-Object_Tracking_in_the_Dark_CVPR_2024_paper.html},
 	title={Multi-Object Tracking in the Dark},
 	author={Wang, Xinzhe and Ma, Kang and Liu, Qiankun and Zou, Yunhao and Fu, Ying},
 	booktitle=CVPR,
@@ -173,6 +203,10 @@ including object detection, panoramic segmentation, optical flow estimation, and
 }
 
 @article{fu2023category,
+	abbr={TGRS},
+	doi={10.1109/TGRS.2023.3340517},
+	volume={62},
+	pages={1--16},
 	title={Category-Level Band Learning Based Feature Extraction for Hyperspectral Image Classification},
 	author={Fu, Ying and Liu, Hongrong and Zou, Yunhao and Wang, Shuai and Li, Zhongxiang and Zheng, Dezhi},
 	journal=TGRS,
@@ -182,11 +216,14 @@ including object detection, panoramic segmentation, optical flow estimation, and
   preview="tgrs.jpg",
   bibtex_show={true},
   abstract="Hyperspectral image (HSI) classification is a classical task in remote sensing image analysis. With the development of deep learning, schemes based on deep learning have gradually become the mainstream of HSI classification. However, existing HSI classification schemes either lack the exploration of category-specific information in the spectral bands and the intrinsic value of information contained in features at different scales, or are unable to extract multiscale spatial information and global spectral properties simultaneously. To solve these problems, in this article, we propose a novel HSI classification framework named CL-MGNet, which can fully exploit the category-specific properties in spectral bands and obtain features with multiscale spatial information and global spectral properties. Specifically, we first propose a spectral weight learning (SWL) module with a category consistency loss to achieve the enhancement of information in important bands and the mining of category-specific properties. Then, a multiscale backbone is proposed to extract the spatial information at different scales and the cross-channel attention via multiscale convolution and a grouping attention module. Finally, we employ an attention multilayer perceptron (attention-MLP) block to exploit the global spectral properties of HSI, which is helpful for the final fully connected layer to obtain the classification result. The experimental results on five representative hyperspectral remote sensing datasets demonstrate the superiority of our method.",
-	year={2023},
+	year={2024},
 	publisher={IEEE}
 }
 
 @article{fu2024technique,
+  abbr={arXiv},
+  arxiv={2406.10744},
+  html={https://arxiv.org/abs/2406.10744},
   title={Technique Report of CVPR 2024 PBDL Challenges},
   author={Fu, Ying and Li, Yu and You, Shaodi and Shi, Boxin and Chen, Linwei and Zou, Yunhao and Wang, Zichun and Li, Yichen and others},
   journal={arXiv preprint arXiv:2406.10744},
@@ -198,6 +235,9 @@ including object detection, panoramic segmentation, optical flow estimation, and
 }
 
 @inproceedings{wang2023lightweight,
+  abbr={CICAI},
+  html={https://link.springer.com/chapter/10.1007/978-981-99-8850-1_16},
+  doi={10.1007/978-981-99-8850-1_16},
   title={Lightweight Rolling Shutter Image Restoration Network Based on Undistorted Flow},
   author={Wang, Binfeng and Zou, Yunhao and Gao, Zhijie and Fu, Ying},
   booktitle={CAAI International Conference on Artificial Intelligence},
@@ -228,6 +268,8 @@ including object detection, panoramic segmentation, optical flow estimation, and
 }
 
 @inproceedings{zou2022estimating,
+	abbr={CVPR},
+  html={https://openaccess.thecvf.com/content/CVPR2022/html/Zou_Estimating_Fine-Grained_Noise_Model_via_Contrastive_Learning_CVPR_2022_paper.html},
 	title={Estimating Fine-Grained Noise Model via Contrastive Learning},
 	author={Zou, Yunhao and Fu, Ying},
 	booktitle=CVPR,
@@ -243,6 +285,8 @@ including object detection, panoramic segmentation, optical flow estimation, and
 }
 
 @inproceedings{zou2021learning,
+	abbr={CVPR},
+  html={https://openaccess.thecvf.com/content/CVPR2021/html/Zou_Learning_To_Reconstruct_High_Speed_and_High_Dynamic_Range_Videos_CVPR_2021_paper.html},
 	title={Learning to Reconstruct High Speed and High Dynamic Range Videos from Events},
 	author={Zou, Yunhao and Zheng, Yinqiang and Takatani, Tsuyoshi and Fu, Ying},
 	booktitle=CVPR,
@@ -257,6 +301,9 @@ including object detection, panoramic segmentation, optical flow estimation, and
 }
 
 @inproceedings{zeng2021mathrm,
+	abbr={PRCV},
+  html={https://link.springer.com/chapter/10.1007/978-3-030-88010-1_6},
+  doi={10.1007/978-3-030-88010-1_6},
 	title={{3D}$^{2}$Unet: 3D Deformable Unet for Low-Light Video Enhancement},
 	author={Zeng, Yuhang and Zou, Yunhao and Fu, Ying},
   booktitle={Pattern Recognition and Computer Vision: 4th Chinese Conference},
@@ -285,6 +332,8 @@ including object detection, panoramic segmentation, optical flow estimation, and
 }
 
 @article{fu2020illumination,
+  abbr={OL},
+  html={https://opg.optica.org/ol/abstract.cfm?uri=ol-45-5-1120},
   title={Illumination modulation for reflective and fluorescent separation},
   author={Fu, Ying and Zou, Yunhao and Bian, Liheng and Guo, Yuxiang and Huang, Hua},
   journal=OL,
@@ -301,6 +350,9 @@ including object detection, panoramic segmentation, optical flow estimation, and
 }
 
 @article{fu2019spectral,
+  abbr={OE},
+  html={https://opg.optica.org/oe/abstract.cfm?uri=oe-27-21-30502},
+  doi={10.1364/OE.27.030502},
   title={Spectral reflectance recovery using optimal illuminations},
   author={Fu, Ying and Zou, Yunhao and Zheng, Yinqiang and Huang, Hua},
   journal=OE,
@@ -316,6 +368,9 @@ including object detection, panoramic segmentation, optical flow estimation, and
 }
 
 @article{zou2020csr,
+  abbr={RS},
+  html={https://www.mdpi.com/2072-4292/12/20/3294},
+  doi={10.3390/rs12203294},
   title={CSR-Net: Camera spectral response network for dimensionality reduction and classification in hyperspectral imagery},
   author={Zou, Yunhao and Fu, Ying and Zheng, Yinqiang and Li, Wei},
   journal={Remote Sensing},

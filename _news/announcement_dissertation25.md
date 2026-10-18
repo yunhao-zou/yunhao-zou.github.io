@@ -1,10 +1,10 @@
 ---
 layout: post
-# Month and day are sorting placeholders; only the known year is displayed.
-date: 2025-01-01
-date_format: "%Y"
+# The day is a sorting placeholder; only the known month is displayed.
+date: 2025-06-01
+date_format: "%b %Y"
 inline: true
 related_posts: false
 ---
 
-My doctoral dissertation received a BIT Outstanding Doctoral Dissertation award and a nomination for the CSIG Doctoral Dissertation Incentive Program (Top 20 Nationwide).
+My doctoral dissertation received an Outstanding Doctoral Dissertation award from Beijing Institute of Technology.
