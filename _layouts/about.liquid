@@ -25,7 +25,7 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
@@ -41,24 +41,24 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2 style="margin-top: 7px; margin-bottom: 5px;">
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
+    {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2 style="margin-top: 7px; margin-bottom: 5px;">
+      <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
@@ -66,41 +66,46 @@ layout: default
 
     <!-- Hornors and Awards -->
     {% if page.awards %}
-      <h2 style="margin-top: 10px; margin-bottom: 10px;">
-        Hornors and Awards
-      </h2>
-        <ul style="padding-left: 1.2em;">
-          <li>Gold Award of the 49th Geneva International Invention Exhibition, 2024</li>
-          <li>Runner-up award of CVPR PBDL Highspeed HDR Video Reconstruction from Events challenge, 2024</li>
-          <li>Toyou Technologies Scholarship, Toyou Feiji Electronics Co., Ltd., 2022</li>
-          <li>China National Scholarship, Ministry of Education (Top 2% in the Ph.D Track), 2021</li>
-          <li>Excellent Student Award, Beijing Institute of Technology, 2020</li>
-        </ul>  
+      <h2 style="margin-top: 10px; margin-bottom: 10px;">Hornors and Awards</h2>
+      <ul style="padding-left: 1.2em;">
+        <li>Gold Award of the 49th Geneva International Invention Exhibition, 2024</li>
+        <li>Runner-up award of CVPR PBDL Highspeed HDR Video Reconstruction from Events challenge, 2024</li>
+        <li>Toyou Technologies Scholarship, Toyou Feiji Electronics Co., Ltd., 2022</li>
+        <li>China National Scholarship, Ministry of Education (Top 2% in the Ph.D Track), 2021</li>
+        <li>Excellent Student Award, Beijing Institute of Technology, 2020</li>
+      </ul>
     {% endif %}
 
     <!-- Services -->
-    {% if page.awards %}
-      <h2 style="margin-top: 10px; margin-bottom: 10px;">
-        Services
-      </h2>
-        <ul style="padding-left: 1.2em;">
-          <li>Reviewer for Conferences: CVPR, ICCV, ECCV, ICLR, AAAI, BMVC, ACCV, ICPR, CICAI</li>
-          <li>Reviewer for Journals: TPAMI, Neurocomputing, Displays, IJRS</li>
-          <li>Co-proposer and presenter for CVPR 2023 tutorial: <a href="https://cvpr.thecvf.com/virtual/2023/tutorial/18563"><b>Optics for Better AI: Capturing and Synthesizing Realistic Data for Low-light Enhancement</b></a></li>
-        </ul>  
+    {% if page.services %}
+      <h2 style="margin-top: 10px; margin-bottom: 10px;">Services</h2>
+      <ul style="padding-left: 1.2em;">
+        <li>Reviewer for Conferences: CVPR, ICCV, ECCV, ICLR, AAAI, BMVC, ACCV, ICPR, CICAI</li>
+        <li>Reviewer for Journals: TPAMI, Neurocomputing, Displays, IJRS</li>
+        <li>
+          Co-proposer and presenter for CVPR 2023 tutorial:
+          <a href="https://cvpr.thecvf.com/virtual/2023/tutorial/18563"
+            ><b>Optics for Better AI: Capturing and Synthesizing Realistic Data for Low-light Enhancement</b></a
+          >
+        </li>
+      </ul>
     {% endif %}
 
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-icons">{% social_links %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
 
-    {% if site.newsletter.enabled and site.footer_fixed %}
-      {% include scripts/newsletter.liquid center=true %}
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center_margin.liquid %}
+      {% else %}
+        {% include newsletter.liquid center=true %}
+      {% endif %}
     {% endif %}
   </article>
 </div>

@@ -1,0 +1,72 @@
+// Personal overrides on top of al_folio_core; keep core runtime gem-owned.
+:root {
+  --global-text-color-light: #666666;
+  --global-theme-color: #007c9e;
+  --global-hover-color: #007c9e;
+}
+html[data-theme="dark"] {
+  --global-text-color-light: #a8a8a8;
+  --global-theme-color: #65cbe6;
+  --global-hover-color: #65cbe6;
+  --global-hover-text-color: #1c1c1d;
+  --global-highlight-color: #ff8a80;
+  --global-footer-bg-color: #161617;
+  --global-footer-text-color: #e8e8e8;
+  --global-footer-link-color: #ffffff;
+}
+table.table {
+  color: var(--global-text-color);
+  &.table-hover tbody tr:hover {
+    color: var(--global-text-color);
+    background-color: var(--global-divider-color);
+  }
+}
+.publications ol.bibliography li .author > em {
+  color: var(--global-highlight-color);
+  font-weight: 700;
+  border-bottom: 0;
+  text-decoration: none;
+}
+
+// The optional legacy layer hides .collapse even in an expanded desktop navbar.
+.navbar .navbar-collapse-main {
+  visibility: visible;
+}
+.publications .abbr abbr a,
+.pagination .page-item.active .page-link {
+  color: var(--global-hover-text-color);
+}
+footer.fixed-bottom a:hover {
+  color: var(--global-footer-link-color);
+  text-decoration: underline;
+}
+.post > article > h2 {
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+@media (min-width: 576px) {
+  .profile {
+    width: 17%;
+  }
+  .cv .date-column {
+    flex: 0 0 8rem;
+    max-width: 8rem;
+    padding-right: 1rem;
+  }
+  .cv .date-column + div {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: none;
+  }
+  .cv .date-column .location {
+    white-space: normal;
+  }
+}
+// Apply theme colors together, retaining the previously verified behavior.
+html.transition,
+html.transition body,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: none !important;
+}
