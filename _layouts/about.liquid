@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post home-page">
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
@@ -19,6 +19,7 @@ layout: default
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% assign profile_image_alt = site.first_name | append: ' ' | append: site.last_name | prepend: 'Portrait of ' %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
@@ -28,7 +29,7 @@ layout: default
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_image_alt
             cache_bust=true
           %}
         {% endif %}
@@ -38,57 +39,67 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix home-intro">{{ content }}</div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-      </h2>
-      {% include news.liquid limit=true %}
+      <section class="home-section" aria-labelledby="news-heading">
+        <h2 id="news-heading">
+          <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+        </h2>
+        {% include news.liquid limit=true %}
+      </section>
     {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
+      <section class="home-section" aria-labelledby="posts-heading">
+        <h2 id="posts-heading">
+          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        </h2>
+        {% include latest_posts.liquid %}
+      </section>
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <section class="home-section" aria-labelledby="publications-heading">
+        <h2 id="publications-heading">
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+        </h2>
+        {% include selected_papers.liquid %}
+      </section>
     {% endif %}
 
-    <!-- Hornors and Awards -->
+    <!-- Honors and Awards -->
     {% if page.awards %}
-      <h2 style="margin-top: 10px; margin-bottom: 10px;">Hornors and Awards</h2>
-      <ul style="padding-left: 1.2em;">
-        <li>Gold Award of the 49th Geneva International Invention Exhibition, 2024</li>
-        <li>Runner-up award of CVPR PBDL Highspeed HDR Video Reconstruction from Events challenge, 2024</li>
-        <li>Toyou Technologies Scholarship, Toyou Feiji Electronics Co., Ltd., 2022</li>
-        <li>China National Scholarship, Ministry of Education (Top 2% in the Ph.D Track), 2021</li>
-        <li>Excellent Student Award, Beijing Institute of Technology, 2020</li>
-      </ul>
+      <section class="home-section" aria-labelledby="awards-heading">
+        <h2 id="awards-heading">Honors and Awards</h2>
+        <ul class="home-detail-list">
+          <li>Gold Award of the 49th Geneva International Invention Exhibition, 2024</li>
+          <li>Runner-up award of CVPR PBDL Highspeed HDR Video Reconstruction from Events challenge, 2024</li>
+          <li>Toyou Technologies Scholarship, Toyou Feiji Electronics Co., Ltd., 2022</li>
+          <li>China National Scholarship, Ministry of Education (Top 2% in the Ph.D Track), 2021</li>
+          <li>Excellent Student Award, Beijing Institute of Technology, 2020</li>
+        </ul>
+      </section>
     {% endif %}
 
     <!-- Services -->
     {% if page.services %}
-      <h2 style="margin-top: 10px; margin-bottom: 10px;">Services</h2>
-      <ul style="padding-left: 1.2em;">
-        <li>Reviewer for Conferences: CVPR, ICCV, ECCV, ICLR, AAAI, BMVC, ACCV, ICPR, CICAI</li>
-        <li>Reviewer for Journals: TPAMI, Neurocomputing, Displays, IJRS</li>
-        <li>
-          Co-proposer and presenter for CVPR 2023 tutorial:
-          <a href="https://cvpr.thecvf.com/virtual/2023/tutorial/18563"
-            ><b>Optics for Better AI: Capturing and Synthesizing Realistic Data for Low-light Enhancement</b></a
-          >
-        </li>
-      </ul>
+      <section class="home-section" aria-labelledby="services-heading">
+        <h2 id="services-heading">Services</h2>
+        <ul class="home-detail-list">
+          <li>Reviewer for Conferences: CVPR, ICCV, ECCV, ICLR, AAAI, BMVC, ACCV, ICPR, CICAI</li>
+          <li>Reviewer for Journals: TPAMI, Neurocomputing, Displays, IJRS</li>
+          <li>
+            Co-proposer and presenter for CVPR 2023 tutorial:
+            <a href="https://cvpr.thecvf.com/virtual/2023/tutorial/18563"
+              ><b>Optics for Better AI: Capturing and Synthesizing Realistic Data for Low-light Enhancement</b></a
+            >
+          </li>
+        </ul>
+      </section>
     {% endif %}
 
     <!-- Social -->
