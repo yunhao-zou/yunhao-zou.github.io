@@ -21,14 +21,16 @@ html[data-theme="dark"] {
 .text-emphasis,
 .cv .interest-item > strong {
   color: var(--global-theme-color);
-  font-weight: 600;
 }
+.text-emphasis,
 .home-intro strong,
 .news td strong,
 .home-detail-list strong,
 .cv p strong,
-.cv .item strong {
-  font-weight: 600;
+.cv .item strong,
+.cv .interest-item > strong {
+  font-weight: 400;
+  font-style: italic;
 }
 
 table.table {
@@ -40,7 +42,8 @@ table.table {
 }
 .publications ol.bibliography li .author > em {
   color: var(--global-highlight-color);
-  font-weight: 700;
+  font-weight: 400;
+  font-style: italic;
   border-bottom: 0;
   text-decoration: none;
 }
