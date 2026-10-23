@@ -19,7 +19,6 @@ We no longer accept pull requests that add entries to this list. Instead, **post
 <a href="https://maithraraghu.com" target="_blank">★</a>
 <a href="https://platanios.org" target="_blank">★</a>
 <a href="https://otiliastr.github.io" target="_blank">★</a>
-<a href="https://www.maths.dur.ac.uk/~sxwc62/" target="_blank">★</a>
 <a href="https://mayankm96.github.io/" target="_blank">★</a>
 <a href="https://markdean.info/" target="_blank">★</a>
 <a href="https://kakodkar.github.io/" target="_blank">★</a>
@@ -40,7 +39,6 @@ We no longer accept pull requests that add entries to this list. Instead, **post
 <a href="https://liamcli.com/" target="_blank">★</a>
 <a href="https://yoonholee.com/" target="_blank">★</a>
 <a href="https://abstractgeek.github.io/" target="_blank">★</a>
-<a href="https://www.compphys.de/" target="_blank">★</a>
 <a href="https://julianstreyczek.github.io" target="_blank">★</a>
 <a href="https://sdaza.com" target="_blank">★</a>
 <a href="https://niweera.com/" target="_blank">★</a>
@@ -72,7 +70,6 @@ We no longer accept pull requests that add entries to this list. Instead, **post
 <a href="https://raphaaal.github.io/" target="_blank">★</a>
 <a href="https://varuniyer.info/" target="_blank">★</a>
 <a href="https://yukimasano.github.io/" target="_blank">★</a>
-<a href="https://hashe037.github.io/" target="_blank">★</a>
 <a href="https://wang-boyu.github.io/" target="_blank">★</a>
 <a href="https://qingqingchen.info" target="_blank">★</a>
 <a href="https://bajinsheng.github.io/" target="_blank">★</a>
