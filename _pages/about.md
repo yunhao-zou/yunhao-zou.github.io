@@ -23,7 +23,7 @@ latest_posts:
   limit: 3
 ---
 
-I am currently a **Staff Algorithm Engineer at OPPO**, which I joined in July 2026. I received my **Ph.D.** in Computer Science and Technology from [Beijing Institute of Technology](https://bit.edu.cn/) in June 2025, advised by [Prof. Ying Fu](https://ying-fu.github.io/). From 2024 to 2025, I was a visiting Ph.D. student at [the University of Würzburg](https://www.uni-wuerzburg.de/), working with [Prof. Radu Timofte](https://www.informatik.uni-wuerzburg.de/computervision/). I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2019.
+I am currently a **Staff Algorithm Engineer at OPPO**, which I joined in July 2025. I received my **Ph.D.** in Computer Science and Technology from [Beijing Institute of Technology](https://bit.edu.cn/) in June 2025, advised by [Prof. Ying Fu](https://ying-fu.github.io/). From 2024 to 2025, I was a visiting Ph.D. student at [the University of Würzburg](https://www.uni-wuerzburg.de/), working with [Prof. Radu Timofte](https://www.informatik.uni-wuerzburg.de/computervision/). I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2019.
 
 My research interests lie broadly in **computer vision**, spanning **computational photography** and **generative modeling**. I explore physical modeling and seek to reduce the sim-to-real gap, with applications in image and video restoration and enhancement. I am also interested in image and video generation.
 
